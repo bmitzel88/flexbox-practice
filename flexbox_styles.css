@@ -16,6 +16,14 @@ nav {
 .nav-link{
     margin: 0 20px;
 }
+
+.user-actions {
+    display: flex;
+}
+
+.user-actions button {
+    margin-left: 15px;
+}
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
 */
