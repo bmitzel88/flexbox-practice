@@ -45,11 +45,25 @@ nav {
 .card {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 10px;
+    align-items:center;
+    margin: 30px;
     padding: 25px;
 }
 
+/* Features */
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px 60px;
+}
 
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
