@@ -2,6 +2,8 @@
 TODO: Add styles to match the layout in the image.
 Note: you should only need to use flexbox properties and margin/padding to create the layout.
 */
+
+/* Header */
 header {
     display: flex;
     align-items: center;
@@ -24,6 +26,31 @@ nav {
 .user-actions button {
     margin-left: 15px;
 }
+
+/* Hero */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+/* Cards */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 25px;
+}
+
+
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
 */
