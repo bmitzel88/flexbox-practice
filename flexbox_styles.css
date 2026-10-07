@@ -2,9 +2,20 @@
 TODO: Add styles to match the layout in the image.
 Note: you should only need to use flexbox properties and margin/padding to create the layout.
 */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
 
+nav {
+    display: flex;
+}
 
-
+.nav-link{
+    margin: 0 20px;
+}
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
 */
