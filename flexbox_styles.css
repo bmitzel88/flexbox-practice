@@ -65,6 +65,41 @@ nav {
     margin: 0px 60px;
 }
 
+/* Footer */
+footer {
+    margin: 30px 50px;
+    padding: 30px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 50px 0px 50px; /*Stop text from touching eachother*/
+}
+
+.footer-section a {
+    margin-bottom: 10px;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links a {
+    margin-right: 15px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
 */
